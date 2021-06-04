@@ -1,0 +1,462 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #F9F9F9 !important;
+
+}
+
+/* ----------------------------------font-family --------------------- */
+@font-face {
+    font-family:'sfp-bold' ;
+    src: url(/fonts/SFProDisplay-Bold.ttf);
+}
+@font-face {
+    font-family:'SFProDisplay-Light' ;
+    src: url(/fonts/SFProDisplay-Light.ttf);
+}
+@font-face {
+    font-family:'SFProDisplay-Regular' ;
+    src: url(/fonts/SFProDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family:'SFProDisplay-Regular-italic' ;
+    src: url(/fonts/SFProDisplay-RegularItalic.ttf);
+}
+@font-face {
+    font-family:'SFProDisplay-Medium' ;
+    src: url(/fonts/SFProDisplay-Medium.ttf);
+}
+
+/* Header section */
+header {
+    margin-top: 1vh;
+    font-family: SFProDisplay-Regular;
+    color: #000000;
+}
+/*------------------  */
+/* ---reUsalble code ------- */
+/* -------------------- */
+
+
+.heading-side {
+    font-size: 2.61vw;
+    font-weight: bold;
+    color: #222222;
+    font-family: sfp-bold;
+}
+.search-box {
+    width: 36.67vw;
+    height: 4.8vh;
+    font-size: 0.83vw;
+    color: #BBBBBB;
+    background-color: #FCFCFC;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+}
+.magnify-s {
+    width: 24px;
+    height: 24px;
+    top: 1.2vh;
+    left: 0.5vw;
+}
+
+.magnify {
+    background-color: #146CDA;
+    border-radius: 4px 4px 4px 4px;
+    width:2.5vw;
+    height:4.8vh ;
+}
+.wishlist {
+    color: #000000;
+}
+
+
+.left-h{
+    padding-right: 2vw;
+}   
+.right-h {
+    padding-right:1vw;
+}
+
+.this-h {
+    padding-right: 1.5vw;
+}
+.top-icon {
+    background-color: #146CDA;
+    color: #FFFFFF;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    font-size: 10px;
+    top: -5px;
+    left: 10px;
+}
+
+
+/* Secton-1 */
+.section-1{
+    margin-top: 1vh;
+    padding-left: 11vw;
+    width: 100%;
+    height: 62vh;
+    background-image: url("/resources/img/Group\ 51223.png");
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+/* useable button */
+
+.b-order {
+    font-size: 22px;
+    width: 12.2vw;
+    height: 5.04vh;
+    border-radius: 32px 32px 32px 32px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.view-all-btn {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 6.15vw;
+    height: 4.4vh;
+    font-size: 0.94vw;
+    border-radius: 32px 32px 32px 32px;
+    font-family:SFProDisplay-Medium ;
+}
+.d1,
+.d3 {
+    font-size: 3.13vw;
+}
+.d1 {font-family:SFProDisplay-Light ;}
+.d1,
+.d2 {
+    color: #FFFFFF;
+}
+.d2 {
+    font-size: 4.69vw;
+    text-transform: uppercase;
+}
+.d2,
+.d3 {
+    /* font-family: psf-bold;  */ 
+    font-weight: 700;
+}
+
+
+/* section 2 three img */
+
+.section-2 {
+    margin-top:5vh;
+}
+
+.three-img {
+    width: 27vw;
+    height: 30vh;
+}
+
+.all-3 div {
+    margin-left: 2vw;
+}
+
+.all-3 div:first-child {
+    margin-left: auto;
+}
+.all-3 div:last-child {
+    margin-right: auto;
+}
+
+/* secction-3 */
+.section-3 {
+    margin-top: 5vh;
+}
+
+
+.h2-b div {
+    font-size: 1.1vw;
+    margin-right: 4vw;
+    color: #888888;
+}
+.new-arrival::after{
+  content: '';
+  border-bottom: 3px solid #000;
+  width: 10px;
+}
+
+/*section exclusive offer */
+.btn-blue {
+    background-color: #146CDA;
+    width: 11vw;
+    height: 4.4vh;
+    border-radius: 22px 22px 22px 22px;
+    color: #FFFFFF;
+    font-family:SFProDisplay-Medium ;
+    font-size: 0.94vw;;
+}
+
+
+.off-10 {
+    color: #146CDA;
+    background-color: #E1FFF1;
+    height: 3.6vh;
+    width: 4vw;
+    border-radius: 17px 17px 17px 17px;
+    top: 0.5vw;
+    left: 0.5vw;
+    font-size: 0.73vw;
+}
+
+#category {
+    font-size:  0.74vw;
+    color: #146CDA;
+    font-family: SFProDisplay-Medium;
+}
+#item-name {
+    font-size: 1.1vw;
+    color: #222222;
+    font-family: SFProDisplay-Medium;
+}
+#price-before {
+    color: #555555;
+    font-size: 0.84vw;
+    font-family: SFProDisplay-Regular;
+}
+#price-after {
+    color: #222222;
+    font-size: 1.05vw;
+    font-family: sfp-bold;
+}
+.items-img {
+    width: 13.7vw;
+    height: auto;
+    max-height: 21.7vh;
+}
+.items {
+    width: 20.3vw;
+    height: 47vh;
+    background-color: #FFFFFF;
+    margin-right: 3.5vw;
+}
+.exclusive-products div.items:last-child {
+    margin-right: auto;
+}
+.exclusive-products div.items:first-child {
+    margin-left: auto;
+}
+
+/* section headphones add */
+.section-headphone {
+    margin-top: 1vh;
+    width: 100%;
+    height: 70vh;
+    background-image: url("/resources/img/Group\ 50885@2x.png");
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+.fl-1 {
+    font-size: 1.7vw;
+    font-style: italic;
+    
+}
+.fl-2,
+.fl-3 {
+    font-size: 4.2vw;
+}
+.fl-2 {
+    font-weight: 300;
+}
+.fl-3 {
+    font-weight: 700;
+}
+.adds {
+    color: #FFFFFF;
+    margin-left: 13vw;
+}
+/* ------------------ */
+ /* Section Best Sellers */
+/* ------------------ */
+#best-s {
+    font-size: 2.6vw;
+    font-weight: bold;
+}
+
+.heading-part {margin: 0 5vw;}
+
+
+/* ------------------ */
+ /* Top brands      */
+/* ------------------ */
+
+.bg-c {
+    background-color: #FFFFFF;
+}
+.bg-c div:first-child {
+    margin-left: auto;
+}
+
+.bg-c div:last-child {
+    margin-right: auto;
+}
+.all-icon {
+    margin-right:6vw;
+}
+.sony-logo {
+    height: 3.5vh;
+    width: 8vw;
+}
+.samsung-logo {
+    width: 10vw;
+    height: 3vh;
+}
+.dell-logo {
+    width: 7.2vw;
+    height: 4.2vh;
+}
+.nikon-logo {
+    width: 8.3vw;
+    height: 6.2vh;
+}
+.philips-logo {
+    width: 10.3vw;
+    height: 3.9vh;
+}
+.lenvo-logo {
+    width: 10.7vw;
+    height: 4.3vh;
+}
+/* Section Blogs */
+.blogs {
+    font-size: 50px;
+    color: #222222;
+}
+
+.blog-img {
+    width: 27.4vw !important;
+    height: 18.1vw;
+    border-radius: 5px 5px 0 0;
+}
+.each-blog {
+    width: 27.4vw !important;
+    /* height: 53.4vh !important; */
+    background-color: #FFFFFF;
+    margin-right: 2vw;
+}
+
+.all-row div:first-child {
+    margin-left: auto;
+}
+.all-row div:last-child {
+    margin-right: auto;
+}
+
+#s1 ,
+#s2,
+#s4 {
+    font-size: 0.84vw;
+    font-family:SFProDisplay-Regular;
+}
+#s1 {
+    color: #555555;
+}
+#s2 {
+    color: #BBBBBB;
+}
+#s3 {
+    font-size: 1.46vw;
+    color: #222222;
+    font-family: sfp-bold;
+}
+#s4 {
+    color: #888888;
+}
+#s5 {
+    color: #146CDA;
+    font-size: 1vw;
+    font-family: SFProDisplay-Medium;
+    padding-top: 0.2vw;
+}
+
+.arow {
+    width: 1vw;
+}
+
+
+
+/*--------------------  */
+/* section-subcription  */
+/*---------------  */
+
+.section-subcription {
+    background-color: #146CDA;
+    width: 100%;
+    max-width: 1920px;
+    height: 18vh;
+    color: #FFFFFF;
+    margin-top: 2vw;
+}
+
+#sub-1 {
+    font-size: 0.94vw;
+    font-family: SFProDisplay-Regular-italic;
+}
+#sub-2 {
+    font-size: 2.64vw;
+    font-family: sfp-bold;
+}
+
+#input-1 {
+    width: 23.8vw;
+    height: 6.4vh;
+    color: #BBBBBB;
+    font-family:SFProDisplay-Light;
+}
+
+.icon-bg {
+    background-color: #000000;
+    width: 4.12vw;
+    height: 6.4vh;
+    font-size: 1.2vw;
+}
+
+
+/* second-last section */
+.move {
+    margin-left: 1vw;
+}
+.move span:first-child {
+    font-size: 1.4vw;
+    font-family: sfp-bold;
+}
+/* ---------Usable component ------------- */
+.move span:last-child,
+.down-ro span {
+    color: #888888;
+    font-family:SFProDisplay-Regular;
+    font-size:0.94vw;
+}
+
+/* .each-box {margin-right: 1vw;} */
+
+/* footer */
+.apple-android img {
+    width: 10.3vw;
+    height: 4.8vh;
+}
+.down-ro span {
+    color: #888888;
+    font-family:SFProDisplay-Regular;
+    font-size:0.94vw;
+}
+.down-ro h3 {
+    font-size: 1.15vw;
+    font-family:sfp-bold;
+    color: #222222;
+    
+}
+.copyright {
+    font-size: 0.84vw;
+    font-family:SFProDisplay-Regular;
+    color: #BBBBBB;
+}

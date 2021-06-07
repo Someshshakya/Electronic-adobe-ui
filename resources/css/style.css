@@ -5,13 +5,16 @@
 body {
     overflow-x: hidden;
     background-color: #F9F9F9 !important;
-
 }
 
 /* ----------------------------------font-family --------------------- */
 @font-face {
-    font-family:'sfp-bold' ;
+    font-family:'SFProDisplay-Bold' ;
     src: url(/fonts/SFProDisplay-Bold.ttf);
+}
+@font-face {
+    font-family:'SFProDisplay-Black' ;
+    src: url(/fonts/FontsFree-Net-SFProDisplay-Black.ttf);
 }
 @font-face {
     font-family:'SFProDisplay-Light' ;
@@ -30,7 +33,16 @@ body {
     font-family:'SFProDisplay-Medium' ;
     src: url(/fonts/SFProDisplay-Medium.ttf);
 }
+@font-face {
+    font-family:'SFProDisplay-Semibold' ;
+    src: url(/fonts/SFProDisplay-Semibold.ttf);
+}
 
+/*------------------ all sections----------------------- */
+section {
+    width: 85.45vw;
+    margin: 0 auto;
+}
 /* Header section */
 header {
     margin-top: 1vh;
@@ -44,9 +56,8 @@ header {
 
 .heading-side {
     font-size: 2.61vw;
-    font-weight: bold;
     color: #222222;
-    font-family: sfp-bold;
+    font-family: SFProDisplay-Bold;
 }
 .search-box {
     width: 36.67vw;
@@ -56,6 +67,7 @@ header {
     background-color: #FCFCFC;
     border: none;
     border-radius: 4px 4px 4px 4px;
+    padding: 0.8vw;
 }
 .magnify-s {
     width: 24px;
@@ -84,6 +96,7 @@ header {
 
 .this-h {
     padding-right: 1.5vw;
+    font-size: 0.98vw;
 }
 .top-icon {
     background-color: #146CDA;
@@ -97,6 +110,7 @@ header {
 }
 
 
+
 /* Secton-1 */
 .section-1{
     margin-top: 1vh;
@@ -107,15 +121,49 @@ header {
     background-size: 100% 100%;
     overflow-x: hidden;
 }
+.left-arro-icon {
+    left: -1.7vw;
+}
+.left-arro-icon,
+.right-arro-icon{
+    z-index: 1;
+    top: 40%;
+    width: 3.2vw;
+}
+.right-arro-icon {
+    right: -1.7vw;
+}
+
+.arro-l {
+    width: 2vw;
+    opacity: 0.4;
+}
+.l-ic,
+.r-ic {
+    width: 2.5vw;
+    height: 11.6vh;
+    top: 40%;
+}
+.l-ic {
+    background-image: url('/resources/icons/Group 732.svg');
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+.r-ic {
+    background-image: url('/resources/icons/Group\ 49772.svg');
+    border-radius: 10px 0 0 10px ;
+    right: 0;
+}
 /* useable button */
 
 .b-order {
-    font-size: 22px;
+    font-size: 1.15vw;
     width: 12.2vw;
-    height: 5.04vh;
+    height: 6.4vh;
     border-radius: 32px 32px 32px 32px;
     background-color: #000000;
     color: #FFFFFF;
+    font-family:SFProDisplay-Semibold ;
 }
 .view-all-btn {
     background-color: #000000;
@@ -141,7 +189,7 @@ header {
 }
 .d2,
 .d3 {
-    /* font-family: psf-bold;  */ 
+    font-family: SFProDisplay-Black;  
     font-weight: 700;
 }
 
@@ -157,25 +205,28 @@ header {
     height: 30vh;
 }
 
-.all-3 div {
+/* .all-3 div {
     margin-left: 2vw;
-}
+} */
 
-.all-3 div:first-child {
+/* .all-3 div:first-child {
     margin-left: auto;
 }
 .all-3 div:last-child {
     margin-right: auto;
-}
+} */
 
 /* secction-3 */
 .section-3 {
     margin-top: 5vh;
 }
 
-
+.h2-b {
+    margin-bottom: 2.5vw;
+    font-family:SFProDisplay-Regular ;
+}
 .h2-b div {
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     margin-right: 4vw;
     color: #888888;
 }
@@ -193,8 +244,11 @@ header {
     border-radius: 22px 22px 22px 22px;
     color: #FFFFFF;
     font-family:SFProDisplay-Medium ;
-    font-size: 0.94vw;;
+    font-size: 0.89vw;;
 }
+
+.cart-icon {width: 1.2vw;}
+
 
 
 .off-10 {
@@ -203,18 +257,19 @@ header {
     height: 3.6vh;
     width: 4vw;
     border-radius: 17px 17px 17px 17px;
-    top: 0.5vw;
-    left: 0.5vw;
+    top: 1vw;
+    left: 1vw;
     font-size: 0.73vw;
+    font-family:SFProDisplay-Medium;
 }
 
 #category {
-    font-size:  0.74vw;
+    font-size:  0.7vw;
     color: #146CDA;
     font-family: SFProDisplay-Medium;
 }
 #item-name {
-    font-size: 1.1vw;
+    font-size: 1.01vw;
     color: #222222;
     font-family: SFProDisplay-Medium;
 }
@@ -226,53 +281,55 @@ header {
 #price-after {
     color: #222222;
     font-size: 1.05vw;
-    font-family: sfp-bold;
+    font-family: SFProDisplay-Bold;
 }
+.items-mobile {
+    width: 10vw !important; 
+    height: 13vw !important;}
 .items-img {
     width: 13.7vw;
     height: auto;
     max-height: 21.7vh;
 }
 .items {
-    width: 20.3vw;
-    height: 47vh;
+    height: 100%;
     background-color: #FFFFFF;
-    margin-right: 3.5vw;
-}
-.exclusive-products div.items:last-child {
-    margin-right: auto;
-}
-.exclusive-products div.items:first-child {
-    margin-left: auto;
+    padding: 3vw 0;
 }
 
+
+
 /* section headphones add */
-.section-headphone {
+#head-adds{
     margin-top: 1vh;
-    width: 100%;
-    height: 70vh;
-    background-image: url("/resources/img/Group\ 50885@2x.png");
-    background-size: 100% 100%;
-    overflow-x: hidden;
+    width: 85.45vw;
+    height: 55vh;
+}
+.img-content {
+    top: 4.5vw;
 }
 .fl-1 {
     font-size: 1.7vw;
-    font-style: italic;
+    font-family: SFProDisplay-Regular-italic;
     
 }
+.send-icon {width: 1.5vw;}
 .fl-2,
 .fl-3 {
     font-size: 4.2vw;
 }
 .fl-2 {
-    font-weight: 300;
+    font-family:SFProDisplay-Light ;
 }
 .fl-3 {
-    font-weight: 700;
+    font-family:SFProDisplay-Black;
 }
 .adds {
     color: #FFFFFF;
     margin-left: 13vw;
+}
+.adds div {
+    margin-top: -1vw;
 }
 /* ------------------ */
  /* Section Best Sellers */
@@ -282,7 +339,7 @@ header {
     font-weight: bold;
 }
 
-.heading-part {margin: 0 5vw;}
+.heading-part {margin: 4vw 5vw 3vh 3vw;}
 
 
 /* ------------------ */
@@ -291,6 +348,9 @@ header {
 
 .bg-c {
     background-color: #FFFFFF;
+    padding: 0 1vw;
+    width: 85.5vw;
+    height: 16vh;
 }
 .bg-c div:first-child {
     margin-left: auto;
@@ -300,7 +360,11 @@ header {
     margin-right: auto;
 }
 .all-icon {
-    margin-right:6vw;
+    margin-right:5vw;
+}
+.all-icon img{
+    opacity: 0.3;
+    filter: grayscale(100%);
 }
 .sony-logo {
     height: 3.5vh;
@@ -339,22 +403,16 @@ header {
 }
 .each-blog {
     width: 27.4vw !important;
-    /* height: 53.4vh !important; */
     background-color: #FFFFFF;
-    margin-right: 2vw;
+    padding-bottom: 1vw;
 }
 
-.all-row div:first-child {
-    margin-left: auto;
-}
-.all-row div:last-child {
-    margin-right: auto;
-}
+
 
 #s1 ,
 #s2,
 #s4 {
-    font-size: 0.84vw;
+    font-size: 0.83vw;
     font-family:SFProDisplay-Regular;
 }
 #s1 {
@@ -364,16 +422,16 @@ header {
     color: #BBBBBB;
 }
 #s3 {
-    font-size: 1.46vw;
+    font-size: 1.4vw;
     color: #222222;
-    font-family: sfp-bold;
+    font-family: SFProDisplay-Bold;
 }
 #s4 {
     color: #888888;
 }
 #s5 {
     color: #146CDA;
-    font-size: 1vw;
+    font-size: 0.89vw;
     font-family: SFProDisplay-Medium;
     padding-top: 0.2vw;
 }
@@ -383,9 +441,10 @@ header {
 }
 
 
-
+/* width: 85.45vw;
+margin: 0 auto; */
 /*--------------------  */
-/* section-subcription  */
+/* section-subscription */
 /*---------------  */
 
 .section-subcription {
@@ -396,14 +455,14 @@ header {
     color: #FFFFFF;
     margin-top: 2vw;
 }
-
+#subscription {margin-right: 15vw;}
 #sub-1 {
-    font-size: 0.94vw;
+    font-size: 0.89vw;
     font-family: SFProDisplay-Regular-italic;
 }
 #sub-2 {
-    font-size: 2.64vw;
-    font-family: sfp-bold;
+    font-size: 2.5vw;
+    font-family: SFProDisplay-Bold;
 }
 
 #input-1 {
@@ -422,24 +481,44 @@ header {
 
 
 /* second-last section */
+.sec-last {
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
 .move {
     margin-left: 1vw;
 }
 .move span:first-child {
-    font-size: 1.4vw;
-    font-family: sfp-bold;
+    font-size: 1.3vw;
+    font-family: SFProDisplay-Bold;
+}
+
+.larg-icon {width: 3vw;}
+.bus {
+    height: 2.5vw;
+    width: 4vw;
 }
 /* ---------Usable component ------------- */
 .move span:last-child,
 .down-ro span {
     color: #888888;
     font-family:SFProDisplay-Regular;
-    font-size:0.94vw;
+    font-size:0.89vw;
 }
 
-/* .each-box {margin-right: 1vw;} */
 
 /* footer */
+
+.footer {
+    width: 85.45vw;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+}
+
+.electo {
+    width: 7.67vw;
+    height: 4.7vh;
+}
 .apple-android img {
     width: 10.3vw;
     height: 4.8vh;
@@ -447,14 +526,15 @@ header {
 .down-ro span {
     color: #888888;
     font-family:SFProDisplay-Regular;
-    font-size:0.94vw;
+    font-size:0.89vw;
 }
 .down-ro h3 {
-    font-size: 1.15vw;
-    font-family:sfp-bold;
+    font-size: 1.1vw;
+    font-family:SFProDisplay-Bold;
     color: #222222;
     
 }
+
 .copyright {
     font-size: 0.84vw;
     font-family:SFProDisplay-Regular;

@@ -198,7 +198,7 @@ header {
 /* section 2 three img */
 
 .section-2 {
-    margin-top:5vh;
+    margin-top:4vw;
 }
 
 .three-img {
@@ -301,10 +301,12 @@ header {
 
 
 /* section headphones add */
+.section-headphone-adds {margin-top: 4vw;}
 #head-adds{
     margin-top: 1vh;
     width: 85.45vw;
     height: 55vh;
+    border-radius: 7px;
 }
 .img-content {
     top: 4.5vw;
@@ -340,7 +342,7 @@ header {
     font-weight: bold;
 }
 
-.heading-part {margin: 4vw 5vw 3vh 3vw;}
+.heading-part {margin: 3vw 5vw 3vh 3vw;}
 
 
 /* ------------------ */
@@ -448,6 +450,7 @@ margin: 0 auto; */
 /* section-subscription */
 /*---------------  */
 
+
 .section-subcription {
     background-color: #146CDA;
     width: 100%;
@@ -456,6 +459,7 @@ margin: 0 auto; */
     color: #FFFFFF;
     margin-top: 2vw;
 }
+.subscribe-1 {padding-top: 1vw;}
 #subscription {margin-right: 15vw;}
 #sub-1 {
     font-size: 0.89vw;
@@ -471,6 +475,7 @@ margin: 0 auto; */
     height: 6.4vh;
     color: #BBBBBB;
     font-family:SFProDisplay-Light;
+    padding:1vw;
 }
 
 .icon-bg {
@@ -526,6 +531,9 @@ footer {
 .apple-android img {
     width: 10.3vw;
     height: 4.8vh;
+}
+.apple-android img:last-child {
+   padding-left:1vw;
 }
 .down-ro span {
     color: #888888;

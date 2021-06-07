@@ -48,6 +48,7 @@ header {
     margin-top: 1vh;
     font-family: SFProDisplay-Regular;
     color: #000000;
+    background-color: #FFFFFF;
 }
 /*------------------  */
 /* ---reUsalble code ------- */
@@ -508,7 +509,10 @@ margin: 0 auto; */
 
 
 /* footer */
-
+footer {
+    background-color: #FFFFFF;
+    padding-top: 2vw;
+}
 .footer {
     width: 85.45vw;
     margin: 0 auto;

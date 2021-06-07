@@ -18,13 +18,13 @@
     .r-ic {height: 4.6vh;}
     .three-img {
         padding-bottom: 4vw;
-        width: auto;
+        width: 85.45vw;
     }
     .b-order {
         height: 5vw;
         font-size: 1.6vw;
     }
-    .heading-side {font-size: 4.61vw;}
+    .heading-side {font-size: 6vw;}
     .section-3 {
         margin-top: 0;
     }
@@ -41,10 +41,10 @@
         width: 10vw;
         font-size:1.5vw;
     }
-    #item-name {font-size: 2.2vw;}
-    #category {font-size: 1.9vw;}
-    #price-before {font-size: 2vw;}
-    #price-after {font-size: 2vw;}
+    #item-name {font-size: 3.5vw;}
+    #category {font-size: 2.3vw;}
+    #price-before {font-size: 3vw;}
+    #price-after {font-size: 3vw;}
     
     .view-all-btn {
         width: 13.15vw;
@@ -73,14 +73,30 @@
     .bg-c {height: 5vh;}
     .move span:first-child {font-size: 3.3vw;}
     .move span:last-child, .down-ro span {font-size: 2.5vw;}
-    #s1, #s2, #s4 {font-size: 2vw;}
-    #s3 {font-size: 1.8vw;}
+    #s1, #s2, #s4 {font-size: 3.4vw;}
+    #s3 {font-size: 5vw;}
+    #s5 {font-size:3vw}
     #sub-1 {font-size: 1.89vw;}
     .footer {display: none;}
     .copyright {font-size: 1.84vw;}
     .products {
         height: 90%!important;
     }
+    .blog-img {
+        width: 85.45vw !important;
+        height: 50.1vw;
+    }
+    .each-blog {
+        width: 85.45vw !important;
+        padding-bottom: 1vw;
+        margin-bottom: 5vw;
+    }
+    .items-img {
+        width: 40.7vw;
+        height: auto;
+        max-height: 21.7vh;
+    }
+    .arow {width: 2vw;}
 }
 
 /* // Medium devices (tablets, 768px and up) */

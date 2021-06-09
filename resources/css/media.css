@@ -78,8 +78,8 @@
     .l-ic,
     .r-ic {height: 4.6vh;}
     .three-img {
-        padding-bottom: 4vw;
-        width: 85.45vw;
+        width: 100% !important;
+        height: 100% !important;
     }
     .b-order {
         height: 4vw;

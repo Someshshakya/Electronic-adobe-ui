@@ -68,10 +68,19 @@
 /* // Small devices (landscape phones, 576px and up) */
 
  @media (max-width: 576px) { 
+    #head-adds {height: 33vw;}
+    .subscribe-1 { padding-top: 10vw;}
+    .section-subcription {
+        width: 100%;
+        height: 100% !important;
+    }
+    .hero-banner {height: 33vw;}
+    .adds {padding: 5vw 0;}
+     
      .footer {display: none;}
     .yello-star{width: 4vw;}
     .send-icon {width: 3vw;}
-    .cart-icon {width: 2vw;}
+    .cart-icon {width: 3.5vw;}
     .section-1 {height: 24vh;}
     .l-ic {border-radius: 0 6px 5px 0;}
     .r-ic {border-radius: 5px 0 0 5px;}
@@ -83,7 +92,8 @@
     }
     .b-order {
         height: 4vw;
-        font-size: 1.3vw;
+        font-size: 1.5vw;
+        width: 16vw;
     }
     .input-boxx {padding-bottom: 15vw;}
     #subscription {padding-bottom: 7vw;}
@@ -91,13 +101,12 @@
     .section-3 {
         margin-top: 0;
     }
-    .h2-b div {font-size: 2.2vw;}
+    .h2-b div {font-size: 2.7vw;}
     .btn-blue {height: 3vw;}
     .items {
         width: 100%;
         height: 90%
     }
-    #head-adds {height: 25vw;}
     .off-10 {
         height: 3.6vw;
         width: 10vw;
@@ -109,21 +118,21 @@
     #price-after {font-size: 3vw;}
     
     .view-all-btn {
-        width: 13.15vw;
-        height: 2.4vh;
-        font-size: 2vw;
+        width: 18.15vw;
+        height: 6.4vw;
+        font-size: 3vw;
     }
     .btn-blue {
         width: 35vw;
-        height: 1.4vh !important;
-        font-size: 2vw;
+        height: 8vw !important;
+        font-size: 3.2vw;
     }
     #input-1 {
-        width: 24.8vw;
-        height: 3.4vw;
+        width: 33.8vw;
+        height: 7vw;
         font-size: 2vw;
     }
-    .icon-bg {height: 3.2vw;}
+    .icon-bg {height: 7vw;}
     .sony-logo {
         height: 1.5vh;
         width: 8vw;
@@ -139,10 +148,11 @@
     #s1, #s2, #s4 {font-size: 3.4vw;}
     #s3 {font-size: 5vw;}
     #s5 {font-size:3vw}
-    #sub-1 {font-size: 1.89vw;}
+    #sub-1 {font-size: 3vw;}
+    #sub-2 {font-size: 3.5vw;}
     .copyright {font-size: 1.84vw;}
     .products {
-        height: 90%!important;
+        height: 100% !important;
     }
     .blog-img {
         width: 85.45vw !important;
